@@ -9,14 +9,14 @@
 	<body>
 		<header>
 			<nav>
-				<a href="#">
+				<a href="/">
 					<img src="./images/logo.svg" alt="Логотип" />
 				</a>
 				<ul>
-					<li><a href="#">Про нас</a></li>
-					<li><a href="#">Чому ми</a></li>
-					<li><a href="#">Наші процедури</a></li>
-					<li><a href="#">Контакти</a></li>
+					<li><a class="link" href="#description_section">Про нас</a></li>
+					<li><a class="link" href="#advantages_section">Чому ми</a></li>
+					<li><a class="link" href="#services_section">Наші процедури</a></li>
+					<li><a class="link" href="#contact_section">Контакти</a></li>
 				</ul>
 			</nav>
 			<address>
@@ -40,14 +40,16 @@
 			</address>
 		</header>
 		<main>
-			<section>
+			<section class="main-section">
 				<p>Косметологічна клініка</p>
-				<h1 lang="en">beauty zone</h1>
-				<button type="button">Замовити дзвінок</button>
+				<h1 class="hero-title" lang="en">beauty zone</h1>
+				<button type="button" class="button-order">Замовити дзвінок</button>
 				<p>Запишись та отримай безкоштовну консультацію нашого косметолога</p>
 			</section>
-			<section>
-				<h2>Перевтілюйтесь в beauty zone!</h2>
+			<section class="description_section" id="description_section">
+				<h2 class="section-title">
+					Перевтілюйтесь в <span class="accent">beauty zone!</span>
+				</h2>
 				<p>
 					Наша косметологічна клініка пропонує вам професійні послуги з догляду
 					за шкірою обличчя та тіла.
@@ -60,8 +62,10 @@
 				<img src="./images/How-was.jpg" alt="Приклад до" />
 				<img src="./images/how-happen.jpg" alt="Приклад після" />
 			</section>
-			<section>
-				<h2>Чому люди обирають нас</h2>
+			<section id="advantages_section">
+				<h2 class="section-title">
+					Чому люди <span class="accent">обирають нас</span>
+				</h2>
 				<ul>
 					<li>
 						<article>
@@ -89,8 +93,10 @@
 					</li>
 				</ul>
 			</section>
-			<section>
-				<h2>Наші процедури</h2>
+			<section id="services_section">
+				<h2 class="section-title">
+					Наші <span class="accent">процедури</span>
+				</h2>
 				<ul>
 					<li>
 						<article>
@@ -109,14 +115,22 @@
 					</li>
 				</ul>
 			</section>
-			<section>
-				<h2>Як нас знайти</h2>
+			<section id="contact_section">
+				<h2 class="section-title">Як нас <span class="accent">знайти</span></h2>
+				<iframe
+					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2537.476474136308!2d30.775235599999995!3d50.506700699999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4d97de411b701%3A0x48116b28f7f00d94!2z0YPQuy4g0KLQsNGA0LDRgdCwINCo0LXQstGH0LXQvdC60L4sIDUsINCR0YDQvtCy0LDRgNGLLCDQmtC40LXQstGB0LrQsNGPINC-0LHQu9Cw0YHRgtGMLCAwNzQwMA!5e0!3m2!1sru!2sua!4v1710956103417!5m2!1sru!2sua"
+					width="605"
+					height="481"
+					allowfullscreen=""
+					loading="lazy"
+					referrerpolicy="no-referrer-when-downgrade"
+				></iframe>
 				<h3>Запишіться безкоштовно та отримайте подарунок</h3>
 			</section>
 		</main>
 		<footer>
 			<nav>
-				<a href="#">
+				<a href="/">
 					<img src="./images/logo.svg" alt="Логотип" />
 				</a>
 				<ul>
@@ -154,7 +168,7 @@
 					</li>
 				</ul>
 				<a href="" target="_blank">Політика конфіденційності</a>
-				<p>© 2022 Дані захищені</p>
+				<p>&copy; 2022 Дані захищені</p>
 			</address>
 		</footer>
 	</body>
