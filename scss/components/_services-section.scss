@@ -1,0 +1,51 @@
+.services-container {
+	display: flex;
+	gap: 32px;
+	align-items: center;
+}
+
+.services-section {
+	padding-top: 48px;
+	padding-bottom: 48px;
+}
+
+.services-title {
+	margin-bottom: 48px;
+}
+
+.services-list {
+	display: flex;
+	gap: 16px;
+}
+
+.services-card {
+	position: relative;
+	height: 456px;
+	border-radius: 4px 120px 4px 120px;
+	padding: 327px 77px 32px 115px;
+	transition: transform 0.3s;
+	overflow: hidden;
+	background: linear-gradient(
+		180.05deg,
+		rgba(1, 28, 68, 0) 48.53%,
+		rgba(1, 28, 68, 0.725825) 84.61%,
+		#011c44 101.39%
+	);
+}
+
+.services-image {
+	position: absolute;
+	z-index: -1;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.services-text {
+	color: var(--color-primary-light);
+}
+
+.services-card:hover {
+	transform: scale(1.05);
+}

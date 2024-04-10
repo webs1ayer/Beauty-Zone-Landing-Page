@@ -1,0 +1,29 @@
+.button-order {
+	background-color: var(--color-primary-blue);
+	color: var(--color-primary-light);
+	/* width: 219px;
+	height: 53px; */
+	font-weight: 600;
+	padding: 16px 32px;
+	border-radius: 32px;
+	border: 2px solid var(--color-primary-blue);
+	cursor: pointer;
+	margin-bottom: 14px;
+	/* font-size: 18px;
+	white-space: nowrap; */
+}
+
+.button-order:hover {
+	background-color: transparent;
+	color: var(--color-primary-dark);
+}
+
+.button-order.form-button {
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 8px;
+}
+
+.button-order.form-button:hover {
+	color: var(--color-primary-light);
+}

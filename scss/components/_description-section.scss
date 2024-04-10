@@ -1,0 +1,89 @@
+.description-section {
+	padding-bottom: 88px;
+}
+
+.description-container {
+	display: flex;
+	gap: 32px;
+}
+
+.description-content {
+	max-width: 710px;
+	padding-top: 40px;
+}
+
+.description-images {
+	flex-basis: 500px;
+	display: flex;
+	flex-direction: column;
+	gap: 40px;
+	position: relative;
+}
+
+.description-images img {
+	max-width: 327px;
+	max-height: 327px;
+}
+
+.second-image {
+	display: flex;
+	justify-content: end;
+	padding-top: 40px;
+}
+
+.description-title {
+	margin-bottom: 40px;
+}
+
+.description-section span {
+	text-transform: capitalize;
+	color: var(--color-primary-blue);
+}
+
+.description-text span {
+	text-transform: capitalize;
+	color: var(--color-primary-dark);
+	font-weight: 500;
+}
+
+.description-text {
+	line-height: 1.7;
+}
+
+.description-star-1 {
+	position: absolute;
+	top: 336px;
+	left: 117px;
+	fill: var(--color-primary-dark);
+}
+
+.description-star-2 {
+	position: absolute;
+	top: 269px;
+	left: 472px;
+	rotate: 22deg;
+}
+
+.description-star-3 {
+	position: absolute;
+	top: 32px;
+	left: 471px;
+	fill: var(--color-primary-blue);
+	rotate: -30deg;
+}
+
+.spin {
+	animation-name: spin;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+@keyframes spin {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
